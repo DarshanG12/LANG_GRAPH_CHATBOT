@@ -2,7 +2,7 @@
 
 This project is a chatbot application built using LangChain and LangGraph, designed to retrieve real-time information from Wikipedia and Arxiv. With the help of ChatGroq, it enhances responses using contextual data, making it suitable for answering questions on academic topics or general knowledge.
 
-#Features
+##Features
 Wikipedia and Arxiv Integration: Provides accurate responses using up-to-date information.
 Event-Based Chatbot Flow: Utilizes LangGraph to create a state-based, conditional graph for conversational flow.
 Powered by ChatGroq LLM: Uses ChatGroq for natural language processing and response generation.
