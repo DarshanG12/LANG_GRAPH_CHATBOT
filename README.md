@@ -7,7 +7,7 @@ Wikipedia and Arxiv Integration: Provides accurate responses using up-to-date in
 Event-Based Chatbot Flow: Utilizes LangGraph to create a state-based, conditional graph for conversational flow.
 Powered by ChatGroq LLM: Uses ChatGroq for natural language processing and response generation.
 
-1)Open the Colab Notebook: Access the notebook from GitHub: https://github.com/DarshanG12/GRAPH_DB_CHATBOT_NEO4J.git.
+1)Open the Colab Notebook: Access the notebook from GitHub: https://github.com/DarshanG12/LANG_GRAPH_CHATBOT.git.
 
 2)Install Dependencies: Install packages listed in requirements.txt:
 pip install -r requirements.txt
