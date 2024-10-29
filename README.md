@@ -29,8 +29,24 @@ To use **ChatGroq**, set up your Groq API key in Colab:
 ```python
 from google.colab import userdata
 groq_api_key = userdata.get("groq_api_key")
+```
 
 Usage
 Initialize Tools: Configure ArxivAPIWrapper and WikipediaAPIWrapper to retrieve top results.
 
 Run the Chatbot: Define user inputs and process them through the graph. For example:
+
+```python
+user_input = "What is data science?"
+events = graph.stream(
+    {"messages": [("user", user_input)]},
+    stream_mode="values"
+)
+for event in events:
+    event["messages"][-1].pretty_print()
+```
+Dependencies
+LangChain, LangGraph, LangChain Community: Provides tooling and state graph flow.
+Arxiv, Wikipedia: For data retrieval from academic and general knowledge sources.
+ChatGroq: Processes input and generates responses based on groq_api_key
+
