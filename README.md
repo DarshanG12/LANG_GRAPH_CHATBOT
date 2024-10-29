@@ -45,9 +45,10 @@ events = graph.stream(
 for event in events:
     event["messages"][-1].pretty_print()
 ```
-##Dependencies:
+## Dependencies:
 
-- **LangChain, LangGraph, LangChain Community: Provides tooling and state graph flow.
-- **Arxiv, Wikipedia: For data retrieval from academic and general knowledge sources.
-- **ChatGroq: Processes input and generates responses based on groq_api_key.
+- **LangChain, LangGraph, LangChain Community**: Provides tooling and state graph flow.
+- **Arxiv, Wikipedia**: For data retrieval from academic and general knowledge sources.
+- **ChatGroq**: Processes input and generates responses based on `groq_api_key`.
+
 
